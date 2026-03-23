@@ -1,8 +1,10 @@
+
+
 const teamMembers = [
   {
-    name: "John Doe",
-    role: "Frontend Developer",
-    image: "/src/assets/images/user1.jpg",
+    name: "Andikan William Udofia",
+    role: "Web Developer",
+    image: "/src/assets/images/AndyAut.jpeg",
   },
   {
     name: "Jane Smith",
@@ -46,7 +48,7 @@ function TeamSection() {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                className="w-60 h-60 rounded-full mx-auto mb-4 object-cover"
               />
 
               <h3 className="text-lg font-semibold text-gray-800">
